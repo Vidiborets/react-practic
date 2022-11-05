@@ -7,6 +7,7 @@ const Painting = props => {
   return (
     <div>
       <img src={url} alt={title} width="480" />
+      <img src={url} alt={title} width="480" />
       <h2>{title}</h2>
       <p>
         Автор: <a href={profile}>{authorName}</a>
