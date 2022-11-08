@@ -7,7 +7,6 @@ const Painting = props => {
   return (
     <div>
       <img src={url} alt={title} width="480" />
-      <img src={url} alt={title} width="480" />
       <h2>{title}</h2>
       <p>
         Автор: <a href={profile}>{authorName}</a>
@@ -21,11 +20,11 @@ const Painting = props => {
 
 export default Painting;
 
-PropTypes.propTypes = {
-  url: PropTypes.string,
-  title: PropTypes.string,
-  price: PropTypes.number,
-  profile: PropTypes.string,
-  authorName: PropTypes.string,
-  quantity: PropTypes.number,
+Painting.propTypes = {
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  profile: PropTypes.string.isRequired,
+  authorName: PropTypes.string.isRequired,
+  quantity: PropTypes.number.isRequired,
 };
