@@ -1,5 +1,4 @@
 import { Link, Outlet } from 'react-router-dom';
-import Section from 'components/Practics/Section/Section';
 
 export default function Practics() {
   return (
