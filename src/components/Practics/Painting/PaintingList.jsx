@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import Painting from './Painting';
+import { Painting } from './Painting';
 
-export default function ProductList({ paintings }) {
+export const PaintingList = ({ paintings }) => {
   return (
     <ul>
       {paintings.map(painting => (
@@ -18,9 +18,9 @@ export default function ProductList({ paintings }) {
       ))}
     </ul>
   );
-}
+};
 
-ProductList.propTypes = {
+PaintingList.propTypes = {
   paintings: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,

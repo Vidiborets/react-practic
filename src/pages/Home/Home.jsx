@@ -1,4 +1,4 @@
-export default function Home(params) {
+export function Home() {
   return (
     <div>
       <h1>Главная страница</h1>

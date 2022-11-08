@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
-export default function Section({ title, children }) {
+import { SectionBox } from './Section.styled';
+export function Section({ title, children }) {
   return (
-    <div>
+    <SectionBox>
       {title && <h2>{title}</h2>}
       {children}
-    </div>
+    </SectionBox>
   );
 }
 

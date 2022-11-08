@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Painting = props => {
+export const Painting = props => {
   const { url, title, price, authorName, profile, quantity } = props;
 
   return (
@@ -17,8 +17,6 @@ const Painting = props => {
     </div>
   );
 };
-
-export default Painting;
 
 Painting.propTypes = {
   url: PropTypes.string.isRequired,

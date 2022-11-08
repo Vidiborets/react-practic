@@ -1,9 +1,9 @@
-import s from '../EventBoard/EventBoard.module.css';
+import { Board } from './EventBoard.styled';
 import PropTypes from 'prop-types';
-import Event from '../Event/Event';
-export default function EventBoard({ events }) {
+import { Event } from '../Event/Event';
+export function EventBoard({ events }) {
   return (
-    <div className={s.eventBoard}>
+    <Board>
       {events.map(({ name, location, speaker, type, time }) => (
         <Event
           key={name}
@@ -15,7 +15,7 @@ export default function EventBoard({ events }) {
           end={time.end}
         />
       ))}
-    </div>
+    </Board>
   );
 }
 EventBoard.propTypes = {
