@@ -3,7 +3,7 @@ export const theme = {
     black: '#000',
     white: '#fff',
     text: '#2a2a2a',
-    background: '#fff',
+    backgroundWhite: '#fff',
     primary: '#07c',
     secondary: '#05a',
     accent: '#609',
@@ -13,6 +13,8 @@ export const theme = {
     blue: '#2196f3',
     primaryText: '#212121',
     secondaryText: '#757575',
+    background: 'linear-gradient(90deg, #cce6ff,#7abfff,#52abff);',
+    backgroundColor: '#F3F6F9',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -24,6 +26,7 @@ export const theme = {
     xs: '12px',
     s: '14px',
     m: '16px',
+    ms: '18px',
     l: '32px',
     xl: '64px',
   },
@@ -43,6 +46,7 @@ export const theme = {
   radii: {
     none: '0',
     normal: '4px',
+    big: '10px',
     round: '50%',
   },
 };

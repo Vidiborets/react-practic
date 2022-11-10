@@ -47,10 +47,9 @@ export const Chip = styled.span`
   position: absolute;
   top: ${props => props.theme.space[2]}px;
   right: ${props => props.theme.space[2]}px;
-  padding: ${props => props.theme.space[2]}px ${props =>
-  props.theme.space[3]}px;
+  padding: ${props => props.theme.space[2]}px ${props => props.theme.space[3]}px;
   border-radius: ${props => props.theme.radii.normal}px;
   text-transform: uppercase;
   color: ${props => props.theme.colors.white};
-  background-color: ${switchColor}};
+  background-color: ${switchColor};
 `;

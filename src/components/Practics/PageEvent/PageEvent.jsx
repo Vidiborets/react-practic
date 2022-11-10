@@ -1,6 +1,6 @@
 import { PageTitle } from './PageTitle/PageTitle';
 import { EventBoard } from './EventBoard/EventBoard';
-import events from 'data/upcoming-events.json';
+import events from 'data/upcomingevents.json';
 import { Container } from 'components/App/App.styled';
 export const PageEvent = () => {
   return (
