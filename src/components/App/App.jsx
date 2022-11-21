@@ -6,7 +6,7 @@ import {
   NavLink,
 } from 'react-router-dom';
 import { Practics, HomeWorks, Home } from 'pages/';
-import { PaintingList, PageEvent, Button, State } from 'components/Practics';
+import { PaintingList, PageEvent, Button, Counter } from 'components/Practics';
 import { Task1, Task2 } from 'components/HomeWorks';
 import { List } from './App.styled';
 import paintings from 'data/paintings';
@@ -42,7 +42,7 @@ export const App = () => {
             />
             <Route path="lesson2" element={<PageEvent />} />
             <Route path="lesson3" element={<Button />} />
-            <Route path="lesson4" element={<State />} />
+            <Route path="lesson4" element={<Counter initialstate={10} />} />
           </Route>
           <Route path="/homeworks" element={<HomeWorks />}>
             <Route
