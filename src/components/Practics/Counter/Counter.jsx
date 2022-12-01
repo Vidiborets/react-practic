@@ -21,7 +21,7 @@ export class Counter extends React.Component {
   };
   render() {
     return (
-      <Box p={30} width={340} m="0 auto" textAlign="center" border="1px solid">
+      <Box p={30} width={400} m="0 auto" textAlign="center" border="1px solid">
         <Text>{this.state.value}</Text>
         <Controls
           onDecrement={this.handleDicrement}
