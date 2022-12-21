@@ -7,6 +7,7 @@ export const List = styled.ul`
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   & li:not(:last-child) {
     margin-right: ${props => props.theme.space[4]}px;
   }

@@ -19,6 +19,15 @@ export function Practics() {
         <li>
           <Link to="lesson4">Урок 4 События и состояние</Link>
         </li>
+        <li>
+          <Link to="lesson5">Урок 5 HTTP запросы</Link>
+        </li>
+        <li>
+          <Link to="lesson6">Урок 6 HTTP запросы (практика)</Link>
+        </li>
+        <li>
+          <Link to="lesson7">Урок 7 Hooks</Link>
+        </li>
       </List>
       <Outlet />
     </Box>

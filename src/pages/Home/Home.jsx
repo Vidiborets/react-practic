@@ -1,7 +1,9 @@
+import { WallPaper } from 'components/Wallpaper/Wallpaper';
+
 export function Home() {
   return (
     <div>
-      <h1>Главная страница</h1>
+      <WallPaper />
     </div>
   );
 }

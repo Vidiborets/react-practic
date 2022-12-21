@@ -1,0 +1,17 @@
+import { TailSpin } from 'react-loader-spinner';
+export const Loading = () => {
+  return (
+    <>
+      <TailSpin
+        height="80"
+        width="80"
+        color="#2196f3"
+        ariaLabel="tail-spin-loading"
+        radius="1"
+        wrapperStyle={{}}
+        wrapperClass=""
+        visible={true}
+      />
+    </>
+  );
+};
